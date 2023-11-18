@@ -46,4 +46,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Flips-x86-64
-          path: Flips/Flips-x86-64.AppImage
+          path: |
+              Flips/Flips-x86-64.AppImage
+              Flips/Flips-x86-64.AppImage.zsync
