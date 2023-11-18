@@ -14,8 +14,9 @@ chmod +x linuxdeploy-x86_64.AppImage linuxdeploy-plugin-gtk.sh
 export ARCH=x86_64
 export OUTPUT="Flips-x86_64.AppImage"
 
-./linuxdeploy-x86_64.AppImage -i AppDir/usr/icons/hicolor/scalable/apps/com.github.Alcaro.Flips.svg \
+./linuxdeploy-x86_64.AppImage -i AppDir/usr/share/icons/hicolor/scalable/apps/com.github.Alcaro.Flips.svg \
                               -d AppDir/usr/share/applications/com.github.Alcaro.Flips.desktop \
                               --executable AppDir/usr/bin/flips \
                               --plugin gtk \
-                              --appdir AppDir
+                              --appdir AppDir \
+                              --output appimage
