@@ -47,5 +47,5 @@ jobs:
         with:
           name: Flips-x86-64
           path: |
-              Flips/Flips-x86-64.AppImage
-              Flips/Flips-x86-64.AppImage.zsync
+            Flips-x86-64.AppImage
+            Flips-x86-64.AppImage.zsync
