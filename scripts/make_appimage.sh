@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd visualboyadvance-m-2.1.7
+cd Flips
 
 # Download linuxdeploy
 
