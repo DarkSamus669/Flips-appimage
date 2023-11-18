@@ -49,7 +49,6 @@ jobs:
             prerelease: false
             release_name: "commit: fdd5c6e"
             tag_name: ${{ github.ref }}
-            body_path: "last_commit: https://github.com/Alcaro/Flips/commit/fdd5c6e34285beef5b9be759c9b91390df486c66"
         env:
             GITHUB_TOKEN: ${{ github.token }}
 
