@@ -23,6 +23,6 @@ export UPDATE_INFORMATION="gh-releases-zsync|DarkSamus669|Flips-appimage|Flips-x
                               --plugin gtk \
                               --appdir AppDir
 
-sed -i "s/export GTK_THEME/#export GTK_THEME/" Flips/apprun-hooks/linuxdeploy-plugin-gtk.sh
+sed -i "s/export GTK_THEME/#export GTK_THEME/" AppDir/apprun-hooks/linuxdeploy-plugin-gtk.sh
 
 ./appimagetool-x86_64.AppImage AppDir
