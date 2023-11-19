@@ -12,6 +12,6 @@ cd Flips
 
 # Pack appdir as gzip
 
-tar -cf AppDir Flips-x86_64.tar
+tar -cf Flips-x86_64.tar AppDir
 
 gzip -9 Flips-x86_64.tar
