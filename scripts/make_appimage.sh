@@ -15,7 +15,7 @@ chmod +x linuxdeploy-x86_64.AppImage linuxdeploy-plugin-gtk.sh appimagetool-x86_
 export ARCH=x86_64
 export OUTPUT="Flips-x86_64.AppImage"
 
-export UPDATE_INFORMATION="gh-releases-zsync|DarkSamus669|Flips-appimage|Flips-x86_64.AppImage"
+export UPDATE_INFORMATION="gh-releases-zsync|DarkSamus669|Flips-appimage|latest|Flips-x86_64.AppImage.zsync"
 
 ./linuxdeploy-x86_64.AppImage -i AppDir/usr/share/icons/hicolor/scalable/apps/com.github.Alcaro.Flips.svg \
                               -d AppDir/usr/share/applications/com.github.Alcaro.Flips.desktop \
