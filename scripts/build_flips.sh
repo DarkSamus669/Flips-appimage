@@ -12,6 +12,12 @@ cd Flips
 
 # Pack appdir as gzip
 
-tar -cf Flips-x86_64.tar AppDir
+cp -r AppDir flips
+
+cp scripts/install.sh flips
+
+cp scripts/uninstall.sh flips
+
+tar -cf Flips-x86_64.tar flips
 
 gzip -9 Flips-x86_64.tar
